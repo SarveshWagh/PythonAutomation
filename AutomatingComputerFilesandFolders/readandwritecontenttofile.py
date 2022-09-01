@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p1 = Path("files/file4.txt")
+p1 = Path("../Testing/file4.txt")
 if p1.exists():
     with open(p1, "r") as file:
         print(file.read())
