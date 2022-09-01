@@ -8,4 +8,3 @@ for path in pathFiles.iterdir():
     print(newPathname)
     path.rename(newPathname)
 
-print("Testing")
