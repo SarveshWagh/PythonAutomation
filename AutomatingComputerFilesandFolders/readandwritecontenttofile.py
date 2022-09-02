@@ -1,3 +1,5 @@
+# This code uses the read and write file operations to read and write content from/into a file.
+
 from pathlib import Path
 
 p1 = Path("../Testing/file4.txt")
